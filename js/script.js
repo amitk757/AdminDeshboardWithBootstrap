@@ -35,6 +35,12 @@ var myChart = new Chart(ctx, {
 });
 
 
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+
+
+
 const labels = [
     'January',
     'February',
