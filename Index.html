@@ -112,11 +112,12 @@
 Dashboard
     </div>
     <div class="row py-3">
-      <div class="col-md-3">
-        <div class="card border-primary bg-primary text-white mb-3" style="max-width: 18rem;"  >
+
+      <div class="col-md-3 mb-3">
+        <div class="card border-primary bg-primary text-white h-100"   >
              
           <div class="card-body text-success">
-            <h5 class="card-title py-5 text-white">Primary Card</h5>              
+            <h5 class="card-title text-white">aut dolor qui necessitatibus repellat delectus laborum ea animi?</h5>              
           </div>
           <div class="card-footer bg-transparent border-primary-dark" style="display: flex; text-align: center;">
             <span> View Details</span>
@@ -125,11 +126,11 @@ Dashboard
         </div>
        
       </div>
-      <div class="col-md-3">
-        <div class="card border-warning bg-warning text-white mb-3" style="max-width: 18rem;"  >
+      <div class="col-md-3 mb-3">
+        <div class="card border-warning bg-warning text-white  h-100" >
              
           <div class="card-body text-warning">
-            <h5 class="card-title py-5 text-white">Warning Card</h5>              
+            <h5 class="card-title py-5  text-white">Warning Card</h5>              
           </div>
           <div class="card-footer bg-transparent border-warning-dark" style="display: flex; text-align: center;">
             <span> View Details</span>
@@ -138,8 +139,9 @@ Dashboard
         </div>
        
       </div>
-      <div class="col-md-3">
-        <div class="card border-success bg-success text-white mb-3" style="max-width: 18rem;"  >
+
+      <div class="col-md-3 mb-3">
+        <div class="card border-success bg-success text-white h-100"  >
              
           <div class="card-body text-success">
             <h5 class="card-title py-5 text-white">Success Card</h5>              
@@ -151,8 +153,8 @@ Dashboard
         </div>
       </div>
       
-      <div class="col-md-3">
-        <div class="card border-danger bg-danger text-white mb-3" style="max-width: 18rem;"  >
+      <div class="col-md-3 mb-3">
+        <div class="card border-danger bg-danger text-white h-100"   >
              
           <div class="card-body text-danger">
             <h5 class="card-title py-5 text-white">Danger Card</h5>              
@@ -163,8 +165,32 @@ Dashboard
            </div>
         </div>
       </div>
-      
+  </div>
 
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+<div class="card-header">
+  Charts
+</div>
+<div class="card-body">
+  <canvas class="chart" id="myChart" width="400" height="200"> </canvas>
+</div>
+
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card">
+<div class="card-header">
+  Charts
+</div>
+<div class="card-body">
+  <canvas class="chart" id="myChart1" width="400" height="200"> </canvas>
+</div>
+
+      </div>
+    </div>
   </div>
 </div>
 </main>
@@ -173,6 +199,7 @@ Dashboard
     
     <script src="js/bootstrap.bundle.min.js"> </script>
     <script src="js/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.bootstrap5.min.js"></script>
     <script src="js/script.js"></script>
