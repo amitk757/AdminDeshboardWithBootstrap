@@ -12,6 +12,9 @@ width:var(--offcanvas-width);
        overflow: auto !important;
    }
 
+   main{
+ margin-left: var(--offcanvas-width);
+   }
     .offcanvas-backdrop::before {
         display: none;
     }
@@ -21,4 +24,18 @@ width:var(--offcanvas-width);
         top:var(--topnavbarheight);
         height: calc(100%-var(--topnavbarheight));
     }
+
+    .sidebar-link{
+        display: flex;
+        align-items: center;
+    }
+    .sidebar-link .chevrondown-link{
+        display: inline-flex;
+        transition: all ease 0.25s;
+    }
+
+    .sidebar-link[aria-expanded="true"] .chevrondown-link{
+        transform: rotate(180deg);
+    }
+
 }

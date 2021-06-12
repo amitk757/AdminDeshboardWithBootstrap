@@ -12,12 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-
-
-    
 <!-- Navbar Start-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
         <!--Offcanvas Trigger Start-->
         
@@ -26,7 +22,7 @@
   </button>
   
         <!--Offcanvas Trigger end-->
-      <a class="navbar-brand fw-bold me-auto " href="#">Eprisons</a>
+      <a class="navbar-brand fw-bold me-auto " href="#">amitk757@gmail.com</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
       aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -68,13 +64,110 @@
     <div class="offcanvas-body p-0">
      <nav class="navbar-dark">
        <ul class="navbar-nav">
+         <li>
+           <div class="text-muted small fw-bold text-uppercase px-3">CORE</div>
+         </li>
+         <li><a href="" class="nav-link px-3 active">
+           <span class="me-2"><i class="bi bi-speedometer2"></i></span>
+           <span>Dashboard</span>
+         </a></li>
+         <li class="my-3">
+<hr class="dropdown-divider"/>
+         </li>
+         <li>
+          <div class="text-muted small fw-bold text-uppercase px-3">Interface</div>
+        </li>
+        <li>
          
+          <a class="nav-link mx-3 sidebar-link "  data-bs-toggle="collapse" href="#collapseExample"
+           role="button" aria-expanded="false" aria-controls="collapseExample">
+           <span class="me-2"><i class="bi bi-layout-split"></i></span>
+           <span>Layouts</span>
+           <span class="ms-auto chevrondown-link"><i class="bi bi-chevron-down"></i></span>
+          </a>
+          <div class="collapse " id="collapseExample">
+            <div>
+              <ul class="navbar-nav ps-3">
+                <li>
+                      <a href="" class="nav-link px-3">
+                        <span class="me-3"><i class="bi bi-layout-split"></i></span>
+                        <span>Layouts</span>
+                      </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+                
        </ul>
      </nav>
     </div>
   </div>
 
 <!-- OffCanvas End-->
+<main class="mt-5 pt-3">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 fw-bold fs-3">
+Dashboard
+    </div>
+    <div class="row py-3">
+      <div class="col-md-3">
+        <div class="card border-primary bg-primary text-white mb-3" style="max-width: 18rem;"  >
+             
+          <div class="card-body text-success">
+            <h5 class="card-title py-5 text-white">Primary Card</h5>              
+          </div>
+          <div class="card-footer bg-transparent border-primary-dark" style="display: flex; text-align: center;">
+            <span> View Details</span>
+            <span> <i class="bi bi-chevron-right"></i> </span>
+           </div>
+        </div>
+       
+      </div>
+      <div class="col-md-3">
+        <div class="card border-warning bg-warning text-white mb-3" style="max-width: 18rem;"  >
+             
+          <div class="card-body text-warning">
+            <h5 class="card-title py-5 text-white">Warning Card</h5>              
+          </div>
+          <div class="card-footer bg-transparent border-warning-dark" style="display: flex; text-align: center;">
+            <span> View Details</span>
+            <span> <i class="bi bi-chevron-right"></i> </span>
+           </div>
+        </div>
+       
+      </div>
+      <div class="col-md-3">
+        <div class="card border-success bg-success text-white mb-3" style="max-width: 18rem;"  >
+             
+          <div class="card-body text-success">
+            <h5 class="card-title py-5 text-white">Success Card</h5>              
+          </div>
+          <div class="card-footer bg-transparent border-success-dark" style="display: flex; text-align: center;">
+            <span> View Details</span>
+            <span> <i class="bi bi-chevron-right"></i> </span>
+           </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card border-danger bg-danger text-white mb-3" style="max-width: 18rem;"  >
+             
+          <div class="card-body text-danger">
+            <h5 class="card-title py-5 text-white">Danger Card</h5>              
+          </div>
+          <div class="card-footer bg-transparent border-danger-dark" style="display: flex; text-align: center;">
+            <span> View Details</span>
+            <span> <i class="bi bi-chevron-right"></i> </span>
+           </div>
+        </div>
+      </div>
+      
+
+  </div>
+</div>
+</main>
 
 
     
